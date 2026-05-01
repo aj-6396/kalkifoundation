@@ -88,6 +88,30 @@
                     <span>Sir Sunderlal Hospital</span>
                 </div>
                 <div class="partner-logo-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/National_Service_Scheme_logo.svg/150px-National_Service_Scheme_logo.svg.png" alt="NSS">
+                    <span>NSS (National Service Scheme)</span>
+                </div>
+                <div class="partner-logo-item">
+                    <img src="https://kalkifoundation.in/wp-content/uploads/2024/03/Logo-150x150.png.webp" alt="SBTC UP">
+                    <span>SBTC UP</span>
+                </div>
+                <div class="partner-logo-item">
+                    <img src="https://kalkifoundation.in/wp-content/uploads/2024/03/Logo-150x150.png.webp" alt="NBTC">
+                    <span>NBTC</span>
+                </div>
+                <div class="partner-logo-item">
+                    <img src="https://kalkifoundation.in/wp-content/uploads/2024/03/Logo-150x150.png.webp" alt="Make India Scientific">
+                    <span>Make India Scientific</span>
+                </div>
+                <div class="partner-logo-item">
+                    <img src="https://kalkifoundation.in/wp-content/uploads/2024/03/Logo-150x150.png.webp" alt="Jainam">
+                    <span>Jainam</span>
+                </div>
+                <div class="partner-logo-item">
+                    <img src="https://kalkifoundation.in/wp-content/uploads/2024/03/Logo-150x150.png.webp" alt="Jeevika">
+                    <span>Jeevika</span>
+                </div>
+                <div class="partner-logo-item">
                     <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Banaras_Hindu_University_Coat_of_Arms.svg/150px-Banaras_Hindu_University_Coat_of_Arms.svg.png" alt="ISO 9001:2015">
                     <span>ISO 9001:2015 Certified</span>
                 </div>
