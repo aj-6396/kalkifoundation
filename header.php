@@ -3,7 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kalki Foundation</title>
+    <title>Kalki Foundation - Fostering Positive Social Change</title>
+    <meta name="description" content="Kalki Foundation is a youth-powered, ISO 9001:2015 certified non-profit organization focused on community welfare, health, and education in Varanasi.">
+    <meta name="keywords" content="Kalki Foundation, NGO Varanasi, Blood donation, Menstrual health, Mental health, Cleanliness drive, Social change, Social work India">
+    
+    <!-- Open Graph tags for better social sharing -->
+    <meta property="og:title" content="Kalki Foundation">
+    <meta property="og:description" content="Fostering positive change through community-driven initiatives in health, education, and social welfare in Varanasi.">
+    <meta property="og:image" content="https://kalkifoundation.in/wp-content/uploads/2024/03/Logo-150x150.png.webp">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon link -->
+    <link rel="icon" type="image/webp" href="https://kalkifoundation.in/wp-content/uploads/2024/03/Logo-150x150.png.webp">
+
     <link rel="stylesheet" href="style.css">
     <!-- Adding modern fonts: Outfit for headings, Inter for body, and Sanskrit support -->
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Inter:wght@300;400;500;600&family=Noto+Sans+Devanagari:wght@400;600&display=swap" rel="stylesheet">
