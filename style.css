@@ -244,13 +244,13 @@ header {
     background: var(--bg-main);
     border-bottom: 1px solid var(--glass-border);
     max-height: 0;
-    overflow: hidden;
+    overflow-y: auto;
     transition: max-height 0.35s cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: var(--shadow-lg);
 }
 
 .mobile-menu.open {
-    max-height: 550px;
+    max-height: calc(100vh - 100px);
 }
 
 .mobile-nav {
