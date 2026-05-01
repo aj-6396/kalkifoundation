@@ -352,6 +352,52 @@
         </div><!-- /.awards-carousel-wrapper -->
     </section>
 
+    <!-- VOLUNTEER TESTIMONIALS SECTION -->
+    <section class="section-padding bg-secondary homepage-testimonials">
+        <div class="container text-center">
+            <h2 class="section-title">What Our <span class="highlight">Volunteers</span> Say</h2>
+            <p class="section-subtitle">Read how our youth-driven movement is changing the lives of both beneficiaries and our team in Varanasi.</p>
+
+            <div class="testimonials-grid mt-5" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 40px;">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-home-card" style="background: var(--card-bg); padding: 32px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); border: 1px solid var(--glass-border); text-align: left; transition: all 0.3s ease;">
+                    <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                        <img src="https://kalkifoundation.in/wp-content/uploads/2025/05/IMG-20250506-WA0005-150x150.webp" alt="Dimple Pandey" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid var(--brand-orange);">
+                        <div>
+                            <h4 style="color: var(--brand-dark); font-family: var(--font-heading); font-size: 1.15rem;">Dimple Pandey</h4>
+                            <span style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.8px;">Volunteer</span>
+                        </div>
+                    </div>
+                    <p style="color: var(--text-main); font-size: 0.98rem; font-style: italic; line-height: 1.6;">"Being part of the NGO felt incredibly fulfilling—it taught me the joy of giving and the strength of community. I met amazing people and felt like I was truly making a difference."</p>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-home-card" style="background: var(--card-bg); padding: 32px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); border: 1px solid var(--glass-border); text-align: left; transition: all 0.3s ease;">
+                    <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                        <img src="https://kalkifoundation.in/wp-content/uploads/2025/05/IMG-20250506-WA0008-150x150.webp" alt="Shambhavi Mishra" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid var(--brand-orange);">
+                        <div>
+                            <h4 style="color: var(--brand-dark); font-family: var(--font-heading); font-size: 1.15rem;">Shambhavi Mishra</h4>
+                            <span style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.8px;">Volunteer</span>
+                        </div>
+                    </div>
+                    <p style="color: var(--text-main); font-size: 0.98rem; font-style: italic; line-height: 1.6;">"It was really nice watching how Kalki was made and developed over time. Watching our initiatives touch the lives of people motivates me every day."</p>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-home-card" style="background: var(--card-bg); padding: 32px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); border: 1px solid var(--glass-border); text-align: left; transition: all 0.3s ease;">
+                    <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 20px;">
+                        <img src="https://kalkifoundation.in/wp-content/uploads/2025/05/IMG_20250516_225936-150x150.webp" alt="Akriti Chaubey" style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover; border: 2px solid var(--brand-orange);">
+                        <div>
+                            <h4 style="color: var(--brand-dark); font-family: var(--font-heading); font-size: 1.15rem;">Akriti Chaubey</h4>
+                            <span style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.8px;">Volunteer</span>
+                        </div>
+                    </div>
+                    <p style="color: var(--text-main); font-size: 0.98rem; font-style: italic; line-height: 1.6;">"I not only learn teamwork but along with that I meet people who are very hardworking and passionate, which highly motivates me to push my boundaries further."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- FINAL CTA SECTION -->
     <section class="cta-section">
         <div class="container cta-grid">
