@@ -51,15 +51,10 @@
                 Download our latest annual reports and audit statements. We believe donors have the right to know exactly where their contributions are utilized.
             </p>
 
-            <div class="work-row" style="margin-top: 50px;">
-                <div class="work-text" style="background: var(--card-bg); padding: 40px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); flex: 1;">
+            <div class="work-row" style="margin-top: 50px; justify-content: center;">
+                <div class="work-text" style="background: var(--card-bg); padding: 40px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); max-width: 650px; margin: 0 auto;">
                     <h3 style="margin-bottom: 20px;">Annual Impact Report 2024-25</h3>
                     <p style="margin-bottom: 30px;">Read about our comprehensive activities, milestones achieved, and financial overview for the fiscal year.</p>
-                    <a href="#" class="action-btn">Download PDF &darr;</a>
-                </div>
-                <div class="work-text" style="background: var(--card-bg); padding: 40px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); flex: 1;">
-                    <h3 style="margin-bottom: 20px;">Financial Audit 2023-24</h3>
-                    <p style="margin-bottom: 30px;">Our independently audited financial statements demonstrating transparent allocation of funds.</p>
                     <a href="#" class="action-btn">Download PDF &darr;</a>
                 </div>
             </div>
