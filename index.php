@@ -84,10 +84,6 @@
                     <span>IIT (BHU) Varanasi</span>
                 </div>
                 <div class="partner-logo-item">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Emblem_of_NITI_Aayog.svg/150px-Emblem_of_NITI_Aayog.svg.png" alt="NITI Aayog">
-                    <span>NITI Aayog Registered</span>
-                </div>
-                <div class="partner-logo-item">
                     <img src="https://kalkifoundation.in/wp-content/uploads/2024/03/Logo-150x150.png.webp" alt="Sir Sunderlal Hospital">
                     <span>Sir Sunderlal Hospital</span>
                 </div>
