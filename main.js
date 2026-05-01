@@ -1,68 +1,60 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // ── Mobile menu ──────────────────────────────────────────────────────────
     const menuBtn = document.getElementById('menu-btn');
     const mobileMenu = document.getElementById('mobile-menu');
 
-    // Toggle mobile menu
     if (menuBtn && mobileMenu) {
         menuBtn.addEventListener('click', () => {
             mobileMenu.classList.toggle('open');
         });
     }
 
-    // Optional: Close mobile menu when a link is clicked
     const mobileLinks = document.querySelectorAll('.mobile-nav a');
     mobileLinks.forEach(link => {
         link.addEventListener('click', () => {
-            mobileMenu.classList.remove('open');
+            if (mobileMenu) mobileMenu.classList.remove('open');
         });
     });
-});
-/* =========================================
-       IMPACT COUNTER ANIMATION
-       ========================================= */
+
+    // ── Impact counter animation ──────────────────────────────────────────────
     function animateNumber(elementId, targetNumber, duration) {
-        const numberElement = document.getElementById(elementId);
-        if (!numberElement) return;
+        const el = document.getElementById(elementId);
+        if (!el) return;
 
-        let startNumber = 0;
-        const increment = targetNumber / (duration / 100);
-
+        let current = 0;
+        const increment = targetNumber / (duration / 50);
         const interval = setInterval(() => {
-            startNumber += increment;
-            if (startNumber >= targetNumber) {
-                startNumber = targetNumber;
+            current += increment;
+            if (current >= targetNumber) {
+                current = targetNumber;
                 clearInterval(interval);
             }
-            numberElement.textContent = Math.floor(startNumber) + '+';
-        }, 100);
+            el.textContent = Math.floor(current).toLocaleString('en-IN') + '+';
+        }, 50);
     }
 
-    function handleIntersection(entries, observer) {
+    const counterMap = {
+        'numberblood':  1500,
+        'numberlives':  4500,
+        'numbermental': 2500,
+        'numberpads':   2000,
+        'numberwaste':  350
+    };
+
+    const counterObserver = new IntersectionObserver((entries, obs) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                if (entry.target.id === 'numberlives') {
-                    animateNumber('numberlives', 4500, 1300);
-                } else if (entry.target.id === 'numberblood') {
-                    animateNumber('numberblood', 1500, 1300);
-                } else if (entry.target.id === 'numbermental') {
-                    animateNumber('numbermental', 2500, 1300);
-                } else if (entry.target.id === 'numberpads') {
-                    animateNumber('numberpads', 2000, 1300);
-                } else if (entry.target.id === 'numberwaste') {
-                    animateNumber('numberwaste', 350, 1300);
+                const id = entry.target.id;
+                if (counterMap[id] !== undefined) {
+                    animateNumber(id, counterMap[id], 1400);
                 }
-                observer.unobserve(entry.target); 
+                obs.unobserve(entry.target);
             }
         });
-    }
+    }, { threshold: 0.4 });
 
-    const observer = new IntersectionObserver(handleIntersection, { threshold: 0.5 });
-    
-    const elementsToObserve = [
-        'numberlives', 'numberblood', 'numbermental', 'numberpads', 'numberwaste'
-    ];
-    
-    elementsToObserve.forEach(id => {
+    Object.keys(counterMap).forEach(id => {
         const el = document.getElementById(id);
-        if (el) observer.observe(el);
+        if (el) counterObserver.observe(el);
     });
+});
