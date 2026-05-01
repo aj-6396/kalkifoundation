@@ -17,7 +17,7 @@
             <img src="https://kalkifoundation.in/wp-content/uploads/2024/09/Screenshot_2024_0918_233405.png" alt="Cleanliness Drive" style="width: 100%; border-radius: var(--radius-md); margin-bottom: 30px;">
             
             <p class="section-subtitle" style="text-align: left; margin-bottom: 20px;">
-                Kalki Foundation, a student-led registered NGO, organized cleanliness drives, along the banks of River Ganga in Varanasi. The drives aimed to combat pollution and promote environmental conservation. The first drive laid the groundwork for the highly successful second event at Assi Ghat, where 21 dedicated volunteers collected over 50 kg of garbage.
+                Kalki Foundation, a student-led registered NGO, organized cleanliness drives, along the banks of River Ganga in Varanasi. The drives aimed to combat pollution and promote environmental conservation. The first drive laid the groundwork for the highly successful subsequent events across the Ghats, where dedicated volunteers collected over 350+ kg of garbage.
             </p>
 
             <p class="section-subtitle" style="text-align: left; margin-bottom: 40px;">
@@ -37,9 +37,9 @@
             <div class="list-card border-green" style="margin-bottom: 40px;">
                 <h2>Key <span class="highlight">Achievements</span></h2>
                 <ul class="custom-list mt-3">
-                    <li>Conducted two successful cleanliness drives.</li>
-                    <li>Collected over 50 kg of garbage in 8-10 sacks.</li>
-                    <li>Engaged 21 volunteers in the cleanliness drive.</li>
+                    <li>Conducted multiple successful cleanliness drives.</li>
+                    <li>Collected over 350+ kg of garbage.</li>
+                    <li>Engaged numerous dedicated volunteers in the cleanliness drives.</li>
                     <li>Demonstrated effective team coordination and segregation.</li>
                     <li>Received appreciation from locals and special recognition from a military soldier.</li>
                 </ul>

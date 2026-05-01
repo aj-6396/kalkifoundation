@@ -161,13 +161,83 @@
     </section>
 
     <!-- FINAL CTA -->
-    <section id="apply-form" class="cta-banner">
-        <div class="container text-center">
-            <h2>Be the Change, Volunteer Today!</h2>
-            <!-- You can embed your Google Form or custom form here -->
-            <a href="mailto:contact@kalkifoundation.in" class="action-btn mt-4" style="background-color: var(--text-main); color: var(--bg-main);">Email Your Application</a>
+    <!-- FINAL CTA / MULTI-STEP FORM -->
+    <section id="apply-form" class="cta-banner" style="background: var(--bg-secondary); padding: 80px 0;">
+        <div class="container text-center" style="max-width: 600px;">
+            <h2 style="color: var(--brand-dark); margin-bottom: 30px;">Become a Changemaker in Varanasi</h2>
+            
+            <div class="form-container" style="background: var(--card-bg); padding: 40px; border-radius: var(--radius-lg); box-shadow: var(--shadow-md); text-align: left;">
+                
+                <!-- Step 1 -->
+                <div id="step-1" class="form-step active">
+                    <h3 style="margin-bottom: 20px;">Step 1: Your Info</h3>
+                    <label style="display: block; margin-bottom: 8px; font-weight: 600;">Full Name *</label>
+                    <input type="text" id="v-name" required style="width: 100%; padding: 12px; margin-bottom: 20px; border: 1px solid var(--glass-border); border-radius: var(--radius-sm);">
+                    
+                    <label style="display: block; margin-bottom: 8px; font-weight: 600;">WhatsApp Number *</label>
+                    <input type="tel" id="v-phone" required style="width: 100%; padding: 12px; margin-bottom: 20px; border: 1px solid var(--glass-border); border-radius: var(--radius-sm);">
+                    
+                    <button type="button" class="action-btn w-100" onclick="nextStep(2)">Next &rarr;</button>
+                </div>
+
+                <!-- Step 2 -->
+                <div id="step-2" class="form-step" style="display: none;">
+                    <h3 style="margin-bottom: 20px;">Step 2: Your Passion</h3>
+                    <label style="display: block; margin-bottom: 8px; font-weight: 600;">Which cause are you most passionate about?</label>
+                    <select id="v-cause" style="width: 100%; padding: 12px; margin-bottom: 20px; border: 1px solid var(--glass-border); border-radius: var(--radius-sm);">
+                        <option value="Blood Donation">Blood Donation</option>
+                        <option value="Menstrual Health">Menstrual Health</option>
+                        <option value="Mental Health">Mental Health</option>
+                        <option value="Cleanliness">Cleanliness Drive</option>
+                        <option value="Education">Child Education</option>
+                        <option value="IT/Design">IT / Graphic Design</option>
+                    </select>
+                    
+                    <div style="display: flex; gap: 10px;">
+                        <button type="button" class="outline-btn" style="flex: 1;" onclick="nextStep(1)">&larr; Back</button>
+                        <button type="button" class="action-btn" style="flex: 1;" onclick="nextStep(3)">Next &rarr;</button>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div id="step-3" class="form-step" style="display: none;">
+                    <h3 style="margin-bottom: 20px;">Step 3: Availability</h3>
+                    <label style="display: block; margin-bottom: 8px; font-weight: 600;">How much time can you commit?</label>
+                    <select id="v-time" style="width: 100%; padding: 12px; margin-bottom: 20px; border: 1px solid var(--glass-border); border-radius: var(--radius-sm);">
+                        <option value="2-5 hours/week">2-5 hours/week</option>
+                        <option value="5-10 hours/week">5-10 hours/week</option>
+                        <option value="Only weekends">Only weekends</option>
+                        <option value="Event-based only">Event-based only</option>
+                    </select>
+                    
+                    <div style="display: flex; gap: 10px;">
+                        <button type="button" class="outline-btn" style="flex: 1;" onclick="nextStep(2)">&larr; Back</button>
+                        <button type="button" class="action-btn" style="flex: 1;" onclick="submitForm()">Join the Movement</button>
+                    </div>
+                </div>
+
+                <!-- Success State -->
+                <div id="form-success" class="form-step text-center" style="display: none; padding: 20px 0;">
+                    <div style="font-size: 4rem; margin-bottom: 15px;">🎉</div>
+                    <h3 style="color: var(--brand-orange); margin-bottom: 15px;">Welcome to the movement!</h3>
+                    <p style="color: var(--text-main); font-weight: 500;">Your application has been received. One of our core team members will WhatsApp you within 24 hours to get you onboarded.</p>
+                </div>
+
+            </div>
         </div>
     </section>
+
+    <script>
+        function nextStep(step) {
+            document.querySelectorAll('.form-step').forEach(el => el.style.display = 'none');
+            document.getElementById('step-' + step).style.display = 'block';
+        }
+        function submitForm() {
+            // In a real app, send data via fetch/AJAX here
+            document.querySelectorAll('.form-step').forEach(el => el.style.display = 'none');
+            document.getElementById('form-success').style.display = 'block';
+        }
+    </script>
 
 </main>
 

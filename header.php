@@ -39,6 +39,7 @@
                         <a href="cleanliness-drive.php">Cleanliness Drive</a>
                     </div>
                 </div>
+                <a href="transparency.php">Transparency</a>
                 <a href="chhavi.php">Chhavi</a>
                 <a href="contact.php">Contact Us</a>
             </nav>
@@ -69,6 +70,7 @@
                 <a href="cloth-donation-drives.php" style="padding-left: 24px; font-size: 14.5px;">- Cloth & Relief Donation</a>
                 <a href="mental-health-drives.php" style="padding-left: 24px; font-size: 14.5px;">- Mental Health</a>
                 <a href="cleanliness-drive.php" style="padding-left: 24px; font-size: 14.5px;">- Cleanliness Drive</a>
+                <a href="transparency.php">Transparency</a>
                 <a href="chhavi.php">Chhavi</a>
                 <a href="contact.php">Contact Us</a>
                 <div class="mobile-btn-group">

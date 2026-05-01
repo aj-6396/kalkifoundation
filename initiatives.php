@@ -83,6 +83,45 @@
                 </div>
             </div>
 
+            <div class="work-row reverse" id="survey-drives">
+                <div class="work-text">
+                    <h3>Survey Drives & Community Data</h3>
+                    <p>
+                        We believe in a data-driven approach. Before launching large-scale initiatives, our volunteers conduct comprehensive surveys across Varanasi to accurately assess the needs of local communities regarding mental health, menstrual hygiene, and healthcare access.
+                    </p>
+                    <a href="survey-drives.php" class="read-more-link" style="display: inline-block; margin-top: 15px; color: var(--brand-primary); font-weight: 600; text-decoration: none;">Read More &rarr;</a>
+                </div>
+                <div class="work-image">
+                    <img src="assets/img/survey_drive_1777636706032.png" alt="Survey Drives">
+                </div>
+            </div>
+
+            <div class="work-row" id="stationary-donation">
+                <div class="work-image">
+                    <img src="assets/img/stationary_donation_1777636686960.png" alt="Stationary Donation">
+                </div>
+                <div class="work-text">
+                    <h3>Stationary Donation & Mentorship</h3>
+                    <p>
+                        Supporting over 100+ students regularly at primary schools like Prathamik Vidyalaya, Jangampur. We don't just drop off supplies; our teams make regular visits to mentor young learners and provide them with the educational tools they need to succeed.
+                    </p>
+                    <a href="stationary-donation-drives.php" class="read-more-link" style="display: inline-block; margin-top: 15px; color: var(--brand-primary); font-weight: 600; text-decoration: none;">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <div class="work-row reverse" id="short-films">
+                <div class="work-text">
+                    <h3>Social Awareness Short Films</h3>
+                    <p>
+                        We use the power of digital media to drive social change. Our creative team has produced 3 impactful short films addressing critical themes like Mental Health Awareness and Women's Safety, which have been showcased across educational institutions and social platforms.
+                    </p>
+                    <a href="social-awareness-short-films.php" class="read-more-link" style="display: inline-block; margin-top: 15px; color: var(--brand-primary); font-weight: 600; text-decoration: none;">Read More &rarr;</a>
+                </div>
+                <div class="work-image">
+                    <img src="assets/img/short_films_1777636720586.png" alt="Social Awareness Short Films">
+                </div>
+            </div>
+
         </div>
     </section>
 

@@ -45,7 +45,7 @@
     <section class="impact section-padding">
         <div class="container text-center">
             <h2 class="section-title highlight">Our Impact</h2>
-            <div class="impact-grid">
+            <div class="impact-grid" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
                 <div class="impact-card">
                     <h3 id="numberblood" class="counter">0</h3>
                     <p>Units of Blood Collected</p>
@@ -53,6 +53,18 @@
                 <div class="impact-card">
                     <h3 id="numberlives" class="counter">0</h3>
                     <p>Lives Saved</p>
+                </div>
+                <div class="impact-card">
+                    <h3 id="numbermental" class="counter">0</h3>
+                    <p>Mental Health Participants</p>
+                </div>
+                <div class="impact-card">
+                    <h3 id="numberpads" class="counter">0</h3>
+                    <p>Sanitary Pads Distributed</p>
+                </div>
+                <div class="impact-card">
+                    <h3 id="numberwaste" class="counter">0</h3>
+                    <p>Kg Waste Collected</p>
                 </div>
             </div>
         </div>

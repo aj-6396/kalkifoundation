@@ -27,7 +27,8 @@
             <div class="list-card border-orange" style="margin-bottom: 40px;">
                 <h2>Key <span class="highlight">Achievements</span></h2>
                 <ul class="custom-list mt-3">
-                    <li>Raised awareness about menstrual hygiene and challenged societal norms.</li>
+                    <li>Distributed over <strong>2000+ sanitary pads</strong> to women in need.</li>
+                    <li>Raised awareness about menstrual hygiene and challenged societal norms through Nukkad Natak and Creative Dance.</li>
                     <li>Encouraged open conversations and community engagement.</li>
                     <li>Empowered women and girls to prioritize their health.</li>
                     <li>Fostered institutional support for menstrual hygiene awareness.</li>

@@ -31,8 +31,8 @@
                     <p>
                         As India made her mark in the history of humankind, reaching the moon’s untouched southern pole, Kalki
                         solidified its foundation to take our society’s future to such heights. Kalki Foundation has earned its
-                        license by virtue of Indian Trust Act, 1882, and is also registered under Niti Aayog: UP/2023/0357068. Our
-                        management is assessed and certified to meet standards (ISO 9001:2015).
+                        license by virtue of Indian Trust Act, 1882. We are registered with <strong>Niti Aayog (NGO Darpan ID: UP/2023/0357068)</strong> and hold <strong>12A (AAFTK3896D25LK01)</strong> & <strong>80G (AAFTK3896D25LK02)</strong> Income Tax Exemptions. Our
+                        management is assessed and certified to meet standards <strong>(ISO 9001:2015: UCS8022-23B12106)</strong>.
                     </p>
                 </div>
                 <div class="about-image">
@@ -84,6 +84,61 @@
                     </p>
                 </div>
 
+            </div>
+        </div>
+    </section>
+
+    <!-- AWARDS & RECOGNITION SECTION -->
+    <section class="section-padding">
+        <div class="container">
+            <h2 class="section-title text-center">Honors & <span class="highlight">Awards</span></h2>
+            <p class="section-subtitle text-center">
+                Our relentless pursuit of social welfare has been recognized by esteemed institutions and leaders.
+            </p>
+            
+            <div class="mission-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); margin-top: 40px;">
+                <div class="mission-card" style="border-left: 4px solid var(--brand-orange);">
+                    <h3 style="font-size: 1.2rem; color: var(--brand-dark); margin-bottom: 10px;">Prof. H.C. Verma</h3>
+                    <p style="font-size: 0.95rem; color: var(--text-main);">Honored and personally recognized by Prof. H.C. Verma during the "Make India Scientific" initiative.</p>
+                </div>
+                <div class="mission-card" style="border-left: 4px solid var(--brand-orange);">
+                    <h3 style="font-size: 1.2rem; color: var(--brand-dark); margin-bottom: 10px;">BHU Vice Chancellor</h3>
+                    <p style="font-size: 0.95rem; color: var(--text-main);">Personally recognized by Prof. Ajit Kumar Chaturvedi, including a notable visit to our adopted school in Jangampur.</p>
+                </div>
+                <div class="mission-card" style="border-left: 4px solid var(--brand-orange);">
+                    <h3 style="font-size: 1.2rem; color: var(--brand-dark); margin-bottom: 10px;">Sir Sunderlal Hospital</h3>
+                    <p style="font-size: 0.95rem; color: var(--text-main);">Felicitated by IMS-BHU for 2 consecutive years on World Blood Donor Day for organizing voluntary blood donation camps.</p>
+                </div>
+                <div class="mission-card" style="border-left: 4px solid var(--brand-orange);">
+                    <h3 style="font-size: 1.2rem; color: var(--brand-dark); margin-bottom: 10px;">Khushi Rashtra Prerna Samman</h3>
+                    <p style="font-size: 0.95rem; color: var(--text-main);">Awarded this prestigious honor for our highly impactful and consistent social work across Varanasi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FUTURE DIRECTIONS SECTION -->
+    <section class="section-padding" style="background-color: rgba(0,0,0,0.03);">
+        <div class="container text-center">
+            <h2 class="section-title">Future <span class="highlight">Directions</span></h2>
+            <p class="section-subtitle">
+                We are constantly evolving to meet the needs of our community. Here are some of our upcoming flagship initiatives.
+            </p>
+            <div class="mission-grid" style="grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));">
+                <div class="mission-card">
+                    <div class="card-icon">🩸</div>
+                    <h3>Project Raktveer</h3>
+                    <p>
+                        An extensive educational campaign aimed at school students to raise awareness about the critical importance of blood donation, building a future generation of voluntary donors.
+                    </p>
+                </div>
+                <div class="mission-card">
+                    <div class="card-icon">🚀</div>
+                    <h3>Project Uday</h3>
+                    <p>
+                        Equipping marginalized students with advanced skills and competitive exam strategies to help them break the cycle of poverty and achieve their career goals.
+                    </p>
+                </div>
             </div>
         </div>
     </section>

@@ -41,9 +41,15 @@ document.addEventListener('DOMContentLoaded', () => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 if (entry.target.id === 'numberlives') {
-                    animateNumber('numberlives', 5000, 1300);
+                    animateNumber('numberlives', 4500, 1300);
                 } else if (entry.target.id === 'numberblood') {
-                    animateNumber('numberblood', 1300, 1300);
+                    animateNumber('numberblood', 1500, 1300);
+                } else if (entry.target.id === 'numbermental') {
+                    animateNumber('numbermental', 2500, 1300);
+                } else if (entry.target.id === 'numberpads') {
+                    animateNumber('numberpads', 2000, 1300);
+                } else if (entry.target.id === 'numberwaste') {
+                    animateNumber('numberwaste', 350, 1300);
                 }
                 observer.unobserve(entry.target); 
             }
@@ -52,8 +58,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const observer = new IntersectionObserver(handleIntersection, { threshold: 0.5 });
     
-    const numberLivesElement = document.getElementById('numberlives');
-    const numberBloodElement = document.getElementById('numberblood');
+    const elementsToObserve = [
+        'numberlives', 'numberblood', 'numbermental', 'numberpads', 'numberwaste'
+    ];
     
-    if (numberLivesElement) observer.observe(numberLivesElement);
-    if (numberBloodElement) observer.observe(numberBloodElement);
+    elementsToObserve.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) observer.observe(el);
+    });

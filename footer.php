@@ -2,7 +2,12 @@
         <div class="footer-container">
             <div class="footer-col">
                 <h3>Kalki Foundation</h3>
-                <p>An ISO-certified non-profit organization dedicated to fostering positive change through community-driven initiatives in health, education, and social welfare.</p>
+                <p>An ISO 9001:2015 certified (UCS8022-23B12106) non-profit organization dedicated to fostering positive change through community-driven initiatives in health, education, and social welfare.</p>
+                <div class="trust-signals" style="margin-top: 15px; margin-bottom: 20px; color: #a3ad9f; font-size: 13.5px; line-height: 1.6;">
+                    <strong>Reg. Trust:</strong> Indian Trusts Act, 1882<br>
+                    <strong>NITI Aayog Darpan:</strong> UP/2023/0357068<br>
+                    <strong>Income Tax Exemption:</strong> 12A & 80G Certified
+                </div>
                 <p style="color: #fff;"><strong>Email:</strong> contact@kalkifoundation.in</p>
             </div>
 

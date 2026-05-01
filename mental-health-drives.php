@@ -17,7 +17,7 @@
             <img src="https://kalkifoundation.in/wp-content/uploads/2024/09/IMG-20240915-WA0012-1024x766.jpg" alt="Mental Health Drives" style="width: 100%; border-radius: var(--radius-md); margin-bottom: 30px;">
             
             <p class="section-subtitle" style="text-align: left; margin-bottom: 20px;">
-                Mental health is one of our main concerns. We try to voice out the problems faced by people every day and remove the taboo surrounding mental health. Kalki Foundation conducted two mental health awareness drives. We were honored to be invited to DPS Varanasi to talk about mental health. The drive was organized on the 8th of August at D.P.S. Varanasi.
+                Mental health is one of our main concerns. We try to voice out the problems faced by people every day and remove the taboo surrounding mental health. Kalki Foundation has conducted <strong>6 major mental health awareness events</strong>, engaging with <strong>over 2500+ participants</strong>. We were honored to be invited to DPS Varanasi to talk about mental health. The drive was organized on the 8th of August at D.P.S. Varanasi.
             </p>
 
             <p class="section-subtitle" style="text-align: left; margin-bottom: 20px;">

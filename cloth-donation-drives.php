@@ -17,7 +17,7 @@
             <img src="https://kalkifoundation.in/wp-content/uploads/2025/02/IMG_8206-1024x682.jpg" alt="Cloth Donation Drive" style="width: 100%; border-radius: var(--radius-md); margin-bottom: 30px;">
             
             <p class="section-subtitle" style="text-align: left; margin-bottom: 20px;">
-                We have conducted cloth donation drives as well; in these drives, we tried to provide clothes to the needy. The drives were conducted on 25 December 2023, 26 January 2024 and 11 February 2025. It might be just an old cloth for someone, but to someone it is a warm blanket protecting them from the bone-chilling weather. The basic needs such as clothes are sadly a luxury for some people, so we are trying to work in their favor.
+                We have conducted cloth donation drives as well; in these drives, we tried to provide clothes to the needy. The drives were conducted on 25 December 2023, 26 January 2024 and 11 February 2025. It might be just an old cloth for someone, but to someone it is a warm blanket protecting them from the bone-chilling weather. Through these drives, we have successfully distributed over <strong>1200+ clothing items</strong>. The basic needs such as clothes are sadly a luxury for some people, so we are trying to work in their favor.
             </p>
 
             <p class="section-subtitle" style="text-align: left; margin-bottom: 40px;">
