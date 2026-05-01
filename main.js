@@ -35,10 +35,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const counterMap = {
         'numberblood':  1500,
-        'numberlives':  4500,
         'numbermental': 2500,
         'numberpads':   2000,
-        'numberwaste':  350
+        'numberwaste':  350,
+        'numberlives':  10000
     };
 
     const counterObserver = new IntersectionObserver((entries, obs) => {

@@ -51,10 +51,6 @@
                     <p>Units of Blood Collected</p>
                 </div>
                 <div class="impact-card">
-                    <h3 id="numberlives" class="counter">0</h3>
-                    <p>Lives Saved</p>
-                </div>
-                <div class="impact-card">
                     <h3 id="numbermental" class="counter">0</h3>
                     <p>Mental Health Participants</p>
                 </div>
@@ -65,6 +61,10 @@
                 <div class="impact-card">
                     <h3 id="numberwaste" class="counter">0</h3>
                     <p>Kg Waste Collected</p>
+                </div>
+                <div class="impact-card">
+                    <h3 id="numberlives" class="counter">0</h3>
+                    <p>Lives Affected</p>
                 </div>
             </div>
         </div>
