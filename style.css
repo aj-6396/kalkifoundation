@@ -512,6 +512,69 @@ footer {
 }
 
 /* =========================================
+   PARTNER TRUST STRIP
+   ========================================= */
+
+.partner-strip {
+    padding: 48px 24px;
+    background: var(--card-bg);
+    border-top: 1px solid var(--glass-border);
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.partner-label {
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: var(--text-muted);
+    margin-bottom: 32px;
+}
+
+.partner-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    flex-wrap: wrap;
+}
+
+.partner-logo-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+}
+
+.partner-logo-item img {
+    height: 56px;
+    width: auto;
+    object-fit: contain;
+    filter: grayscale(100%) opacity(0.6);
+    transition: filter 0.4s ease;
+}
+
+.partner-logo-item:hover img {
+    filter: grayscale(0%) opacity(1);
+}
+
+.partner-logo-item span {
+    font-size: 0.72rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .partner-logos { gap: 24px; }
+    .partner-logo-item img { height: 40px; }
+    .partner-logo-item span { font-size: 0.62rem; }
+}
+
+/* =========================================
    IMPACT COUNTERS
    ========================================= */
 .impact-grid {

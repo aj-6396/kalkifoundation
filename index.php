@@ -70,60 +70,147 @@
         </div>
     </section>
 
+    <!-- PARTNER LOGO STRIP -->
+    <section class="partner-strip">
+        <div class="container text-center">
+            <p class="partner-label">Trusted By & In Collaboration With</p>
+            <div class="partner-logos">
+                <div class="partner-logo-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Banaras_Hindu_University_Coat_of_Arms.svg/150px-Banaras_Hindu_University_Coat_of_Arms.svg.png" alt="BHU">
+                    <span>Banaras Hindu University</span>
+                </div>
+                <div class="partner-logo-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Indian_Institute_of_Technology_BHU_Logo.svg/150px-Indian_Institute_of_Technology_BHU_Logo.svg.png" alt="IIT BHU">
+                    <span>IIT (BHU) Varanasi</span>
+                </div>
+                <div class="partner-logo-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Emblem_of_NITI_Aayog.svg/150px-Emblem_of_NITI_Aayog.svg.png" alt="NITI Aayog">
+                    <span>NITI Aayog Registered</span>
+                </div>
+                <div class="partner-logo-item">
+                    <img src="https://kalkifoundation.in/wp-content/uploads/2024/03/Logo-150x150.png.webp" alt="Sir Sunderlal Hospital">
+                    <span>Sir Sunderlal Hospital</span>
+                </div>
+                <div class="partner-logo-item">
+                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Banaras_Hindu_University_Coat_of_Arms.svg/150px-Banaras_Hindu_University_Coat_of_Arms.svg.png" alt="ISO 9001:2015">
+                    <span>ISO 9001:2015 Certified</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- OUR WORKS SECTION -->
     <section class="works bg-secondary section-padding">
         <div class="container">
             <h2 class="section-title text-center">Our Works</h2>
             
-            <!-- Work Item 1 (Image Left, Text Right) -->
+            <!-- 1. Blood Donation (Image Left) -->
             <div class="work-row">
-                <div class="work-image">
-                    <img src="https://kalkifoundation.in/wp-content/uploads/2024/03/1000055739.webp" alt="Cloth Donation">
-                </div>
-                <div class="work-text">
-                    <h3>Cloth Donation Drives</h3>
-                    <p>Kalki Foundation organises cloth donation drives to support those in need. What may be old for one can be a lifeline for another, providing warmth in harsh weather. For many, even basic clothing is a luxury—we strive to change that.</p>
-                    <a href="cloth-donation-drives.php" class="outline-btn">Read More</a>
-                </div>
-            </div>
-
-            <!-- Work Item 2 (Text Left, Image Right) -->
-            <div class="work-row reverse">
-                <div class="work-text">
-                    <h3>Blood Donation Drives</h3>
-                    <p>According to the Times of India, 12,000 people lose their lives every day due to a sheer lack of donated blood. Kalki Foundation conducts blood donation drives frequently to help people in dire need, to give children a chance to grow and parents a hope to return home to their families.</p>
-                    <a href="blood-donation-drives.php" class="outline-btn">Read More</a>
-                </div>
                 <div class="work-image">
                     <img src="https://kalkifoundation.in/wp-content/uploads/2024/03/1000055738-png.webp" alt="Blood Donation">
                 </div>
+                <div class="work-text">
+                    <h3>Blood Donation Drives</h3>
+                    <p>12,000 people lose their lives every day due to a sheer lack of donated blood. We conduct drives in collaboration with Sir Sunderlal Hospital, IIT BHU, and Kashi Vishwanath Temple — collecting 1500+ units and saving 4500+ lives.</p>
+                    <a href="blood-donation-drives.php" class="outline-btn">Read More</a>
+                </div>
             </div>
 
-            <!-- Work Item 3 -->
+            <!-- 2. Haemoglobin Test (Text Left) -->
+            <div class="work-row reverse">
+                <div class="work-text">
+                    <h3>Haemoglobin & Blood Test Drive</h3>
+                    <p>In collaboration with Sir Sundarlal Hospital, we organized free Blood Group and Haemoglobin Level testing at BHU Arts Faculty. 127 students participated, receiving immediate reports and health insights from medical professionals.</p>
+                    <a href="haemoglobin-test-drive.php" class="outline-btn">Read More</a>
+                </div>
+                <div class="work-image">
+                    <img src="https://kalkifoundation.in/wp-content/uploads/2025/04/1000042109-1024x574.webp" alt="Haemoglobin Test">
+                </div>
+            </div>
+
+            <!-- 3. Menstrual Health (Image Left) -->
             <div class="work-row">
                 <div class="work-image">
                     <img src="https://kalkifoundation.in/wp-content/uploads/2024/03/1000055737.webp" alt="Menstrual Health">
                 </div>
                 <div class="work-text">
-                    <h3>Menstrual Health</h3>
-                    <p>Kalki Foundation organises events on menstrual hygiene awareness. Our events include the "red dot challenge", a poster-making competition, and a thought-provoking Nukkad Natak called "Chuppi pe charcha", addressing the stigma and taboos surrounding menstruation.</p>
+                    <h3>Menstrual Health Drives</h3>
+                    <p>We organise events on menstrual hygiene awareness including the "Red Dot Challenge", poster-making competitions, and the Nukkad Natak "Chuppi pe Charcha" — distributing 2000+ sanitary pads and breaking taboos surrounding menstruation.</p>
                     <a href="menstrual-health-drives.php" class="outline-btn">Read More</a>
                 </div>
             </div>
 
-            <!-- Work Item 4 -->
+            <!-- 4. Cloth Donation (Text Left) -->
+            <div class="work-row reverse">
+                <div class="work-text">
+                    <h3>Cloth Donation Drives</h3>
+                    <p>What may be old for one can be a lifeline for another. We organise cloth donation drives to support those in need, providing warmth in harsh weather. We have distributed 1200+ clothing items to underprivileged communities.</p>
+                    <a href="cloth-donation-drives.php" class="outline-btn">Read More</a>
+                </div>
+                <div class="work-image">
+                    <img src="https://kalkifoundation.in/wp-content/uploads/2024/03/1000055739.webp" alt="Cloth Donation">
+                </div>
+            </div>
+
+            <!-- 5. Mental Health (Image Left) -->
+            <div class="work-row">
+                <div class="work-image">
+                    <img src="https://kalkifoundation.in/wp-content/uploads/2024/09/IMG-20240915-WA0012-1024x766.jpg" alt="Mental Health">
+                </div>
+                <div class="work-text">
+                    <h3>Mental Health Drives</h3>
+                    <p>Mental health is one of the main concerns of Kalki Foundation. We try to voice the problems faced by people every day and remove the taboo surrounding mental health through school and university-level awareness drives — reaching 2500+ participants.</p>
+                    <a href="mental-health-drives.php" class="outline-btn">Read More</a>
+                </div>
+            </div>
+
+            <!-- 6. Cleanliness Drive (Text Left) -->
             <div class="work-row reverse">
                 <div class="work-text">
                     <h3>Cleanliness Drive</h3>
-                    <p>The Kalki Foundation has organised multiple consecutive cleanliness drives along the banks of the River Ganga in Varanasi. The drives aim to combat pollution and promote environmental conservation, with dedicated volunteers collecting over 50 kg of garbage in a single day at Assi Ghat.</p>
+                    <p>We have organised multiple consecutive cleanliness drives along the banks of the River Ganga in Varanasi, collecting over 350+ kg of waste. The drives aim to combat pollution and promote environmental conservation at historic ghats.</p>
                     <a href="cleanliness-drive.php" class="outline-btn">Read More</a>
                 </div>
                 <div class="work-image">
                     <img src="https://kalkifoundation.in/wp-content/uploads/2024/03/1000055736-png.webp" alt="Cleanliness Drive">
                 </div>
             </div>
-            
-            <!-- Note: You can easily copy/paste the .work-row blocks to add the rest of your initiatives like Survey Drive and Hemoglobin tests -->
+
+            <!-- 7. Stationery Donation (Image Left) -->
+            <div class="work-row">
+                <div class="work-image">
+                    <img src="assets/img/stationary_donation_1777636686960.png" alt="Stationery Donation">
+                </div>
+                <div class="work-text">
+                    <h3>Stationery Donation Drive</h3>
+                    <p>We believe education is a fundamental right. Through stationery donation drives, we supply notebooks, pens, and essential school supplies to underprivileged children, empowering them with the tools they need to learn and grow.</p>
+                    <a href="stationary-donation-drives.php" class="outline-btn">Read More</a>
+                </div>
+            </div>
+
+            <!-- 8. Survey Drive (Text Left) -->
+            <div class="work-row reverse">
+                <div class="work-text">
+                    <h3>Survey Drive</h3>
+                    <p>Data-driven impact begins with understanding ground realities. Our survey drives collect essential demographic and socio-economic data from underserved communities to design targeted interventions and track the effectiveness of our initiatives.</p>
+                    <a href="survey-drives.php" class="outline-btn">Read More</a>
+                </div>
+                <div class="work-image">
+                    <img src="assets/img/survey_drive_1777636706032.png" alt="Survey Drive">
+                </div>
+            </div>
+
+            <!-- 9. Science Festival (Image Left) -->
+            <div class="work-row">
+                <div class="work-image">
+                    <img src="assets/img/short_films_1777636720586.png" alt="Science Festival">
+                </div>
+                <div class="work-text">
+                    <h3>Science Festival Drive</h3>
+                    <p>"Make India Scientific" — a collaborative initiative with IIT BHU students at Swatantrata Bhawan, BHU. Attended by IPS Abhayanand, Padma Shri Prof. Ravindra Kumar Sinha, and leading Indian scientists, fostering scientific temperament in children.</p>
+                    <a href="science-festival-drive.php" class="outline-btn">Read More</a>
+                </div>
+            </div>
 
         </div>
     </section>
