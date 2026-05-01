@@ -122,6 +122,32 @@
                 </div>
             </div>
 
+            <div class="work-row" id="haemoglobin-test">
+                <div class="work-image">
+                    <img src="https://kalkifoundation.in/wp-content/uploads/2025/04/1000042109-1024x574.webp" alt="Haemoglobin Test Drive">
+                </div>
+                <div class="work-text">
+                    <h3>Haemoglobin & Blood Group Test Drive</h3>
+                    <p>
+                        In collaboration with Sir Sundarlal Hospital, we organized free Blood Group and Haemoglobin Level testing at the BHU Arts Faculty. This camp promotes health awareness, provides immediate reports, and allows timely health interventions for students.
+                    </p>
+                    <a href="haemoglobin-test-drive.php" class="read-more-link" style="display: inline-block; margin-top: 15px; color: var(--brand-primary); font-weight: 600; text-decoration: none;">Read More &rarr;</a>
+                </div>
+            </div>
+
+            <div class="work-row reverse" id="science-festival">
+                <div class="work-text">
+                    <h3>Science Festival Drive</h3>
+                    <p>
+                        "Make India Scientific" was a collaborative event between the Kalki Foundation and IIT BHU students at Swatantrata Bhawan, BHU. We hosted distinguished scientists and guests like IPS Abhayanand to foster scientific temperament and inspire curiosity in children.
+                    </p>
+                    <a href="science-festival-drive.php" class="read-more-link" style="display: inline-block; margin-top: 15px; color: var(--brand-primary); font-weight: 600; text-decoration: none;">Read More &rarr;</a>
+                </div>
+                <div class="work-image">
+                    <img src="https://kalkifoundation.in/wp-content/uploads/2024/09/IMG-20240915-WA0012-1024x766.jpg" alt="Science Festival Drive">
+                </div>
+            </div>
+
         </div>
     </section>
 
