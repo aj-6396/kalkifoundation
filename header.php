@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kalki Foundation</title>
     <link rel="stylesheet" href="style.css">
-    <!-- Adding a font that supports Sanskrit characters clearly -->
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Adding modern fonts: Outfit for headings, Inter for body, and Sanskrit support -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Inter:wght@300;400;500;600&family=Noto+Sans+Devanagari:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
