@@ -15,7 +15,7 @@
                 <h3>Quick Links</h3>
                 <ul class="footer-links">
                     <li><a href="about.php">Our Story</a></li>
-                    <li><a href="volunteer.php">Join as a Volunteer</a></li>
+                    <li><a href="register.php">Join as a Volunteer</a></li>
                     <li><a href="contact.php">Contact Us</a></li>
                     <li><a href="donate.php">Make a Donation</a></li>
                 </ul>
