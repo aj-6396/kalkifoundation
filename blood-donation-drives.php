@@ -46,4 +46,14 @@
 
 </main>
 
+<?php
+$galleryImages = [
+    'https://kalkifoundation.in/wp-content/uploads/2025/04/1000042109-1024x574.webp',
+    'https://kalkifoundation.in/wp-content/uploads/2024/03/422117604_362387176543159_5310330027819801106_n.jpeg',
+    'https://kalkifoundation.in/wp-content/uploads/2024/03/1000055738-png.webp',
+    // Add more drive photo URLs here
+];
+include 'includes/gallery.php';
+?>
+
 <?php include 'footer.php'; ?>

@@ -47,4 +47,12 @@
 
 </main>
 
+<?php
+$galleryImages = [
+    'assets/img/stationary_donation_1777636686960.png',
+    // Add more drive photo URLs here
+];
+include 'includes/gallery.php';
+?>
+
 <?php include 'footer.php'; ?>

@@ -567,7 +567,15 @@ footer {
     display: flex;
     align-items: center;
     gap: 60px;
-    margin-bottom: 72px;
+    margin-bottom: 80px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.work-row:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 .work-row.reverse { flex-direction: row-reverse; }
@@ -576,26 +584,49 @@ footer {
 
 .work-image img {
     width: 100%;
-    border-radius: var(--radius-md);
-    box-shadow: var(--shadow-md);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
     transition: transform 0.4s ease, box-shadow 0.4s ease;
+    aspect-ratio: 4/3;
+    object-fit: cover;
 }
 
 .work-image img:hover {
-    transform: translateY(-5px);
-    box-shadow: var(--shadow-lg);
+    transform: scale(1.02);
+    box-shadow: 0 24px 60px rgba(0,0,0,0.12);
 }
 
 .work-text h3 {
-    font-size: 2.25rem;
+    font-size: 2.1rem;
     color: var(--brand-dark);
-    margin-bottom: 18px;
+    margin-bottom: 16px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    position: relative;
+    padding-bottom: 16px;
+}
+
+.work-text h3::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 48px;
+    height: 3px;
+    background: var(--brand-orange);
+    border-radius: 99px;
+}
+
+.work-row.reverse .work-text h3::after {
+    left: 0;
 }
 
 .work-text p {
     color: var(--text-muted);
-    font-size: 1.08rem;
-    line-height: 1.8;
+    font-size: 1.05rem;
+    line-height: 1.85;
+    margin-bottom: 24px;
 }
 
 @media (max-width: 768px) {
@@ -604,8 +635,92 @@ footer {
         text-align: center;
         gap: 32px;
         margin-bottom: 48px;
+        padding-bottom: 48px;
     }
+    .work-text h3::after { left: 50%; transform: translateX(-50%); }
 }
+
+/* =========================================
+   INITIATIVE PHOTO GALLERY (Auto-Scroll)
+   ========================================= */
+
+.initiative-gallery-section {
+    background-color: var(--bg-secondary);
+    overflow: hidden;
+    padding: 60px 0;
+}
+
+.initiative-gallery-section .gallery-header {
+    text-align: center;
+    padding: 0 24px;
+    margin-bottom: 40px;
+}
+
+.gallery-carousel-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 6%, black 94%, transparent 100%);
+    mask-image: linear-gradient(to right, transparent 0%, black 6%, black 94%, transparent 100%);
+}
+
+.gallery-track {
+    display: flex;
+    gap: 16px;
+    width: max-content;
+    animation: galleryScroll 30s linear infinite;
+}
+
+.gallery-carousel-wrapper:hover .gallery-track {
+    animation-play-state: paused;
+}
+
+@keyframes galleryScroll {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
+.gallery-slide {
+    flex: 0 0 280px;
+    height: 200px;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    background: var(--card-bg);
+    border: 2px dashed #d4c9b5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+}
+
+.gallery-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--radius-md);
+    transition: transform 0.4s ease;
+}
+
+.gallery-slide img:hover {
+    transform: scale(1.05);
+}
+
+.gallery-slide.placeholder {
+    color: var(--text-muted);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+}
+
+.gallery-slide.placeholder .ph-icon { font-size: 2.2rem; margin-bottom: 6px; }
+.gallery-slide.placeholder .ph-text { font-size: 10.5px; color: var(--text-muted); }
 
 /* =========================================
    FINAL CTA SECTION

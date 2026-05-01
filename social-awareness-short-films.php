@@ -47,4 +47,12 @@
 
 </main>
 
+<?php
+$galleryImages = [
+    'assets/img/short_films_1777636720586.png',
+    // Add more drive photo URLs here
+];
+include 'includes/gallery.php';
+?>
+
 <?php include 'footer.php'; ?>

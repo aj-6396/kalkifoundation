@@ -47,4 +47,12 @@
 
 </main>
 
+<?php
+$galleryImages = [
+    'assets/img/survey_drive_1777636706032.png',
+    // Add more drive photo URLs here
+];
+include 'includes/gallery.php';
+?>
+
 <?php include 'footer.php'; ?>
