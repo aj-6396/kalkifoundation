@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalki Foundation</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Adding a font that supports Sanskrit characters clearly -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            
+            <!-- Left: Logo & Stacked Text -->
+            <a href="index.php" class="brand-area">
+                <!-- Replace 'logo.png' with the actual path to your black circular logo image -->
+                <img src="https://kalkifoundation.in/wp-content/uploads/2024/03/Logo-150x150.png.webp" alt="Kalki Foundation Logo" class="brand-logo-img">
+                <div class="brand-text-stack">
+                    <span class="brand-title">KALKI FOUNDATION</span>
+                    <span class="brand-sanskrit">यतो धर्मस्ततो जय:</span>
+                    <span class="brand-iso">ISO 9001:2015 certified</span>
+                </div>
+            </a>
+
+            <!-- Middle: Navigation -->
+            <nav class="desktop-nav">
+                <a href="index.php">Home</a>
+                <a href="about.php">About Us</a>
+                <a href="team.php">Our Core Team</a>
+                <div class="dropdown">
+                    <a href="initiatives.php" class="dropdown-toggle">Our Work <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                </div>
+                <a href="chhavi.php">Chhavi</a>
+                <a href="contact.php">Contact Us</a>
+            </nav>
+
+            <!-- Right: Action Buttons -->
+            <div class="desktop-btn-group">
+                <a href="register.php" class="action-btn">Join Us</a>
+                <a href="donate.php" class="action-btn">Donate Now</a>
+            </div>
+
+            <!-- Mobile Hamburger Button -->
+            <button class="hamburger" id="menu-btn">
+                <svg fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
+
+        <!-- Mobile Menu (Hidden by default) -->
+        <div class="mobile-menu" id="mobile-menu">
+            <nav class="mobile-nav">
+                <a href="index.php">Home</a>
+                <a href="about.php">About Us</a>
+                <a href="team.php">Our Core Team</a>
+                <a href="initiatives.php">Our Work</a>
+                <a href="chhavi.php">Chhavi</a>
+                <a href="contact.php">Contact Us</a>
+                <div class="mobile-btn-group">
+                    <a href="register.php" class="action-btn">Join Us</a>
+                    <a href="donate.php" class="action-btn">Donate Now</a>
+                </div>
+            </nav>
+        </div>
+    </header>
