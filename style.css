@@ -158,6 +158,39 @@ header {
     transform: rotate(180deg);
 }
 
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--card-bg);
+    min-width: 260px;
+    box-shadow: var(--shadow-md);
+    border-radius: var(--radius-md);
+    padding: 10px 0;
+    z-index: 1001;
+    border: 1px solid var(--glass-border);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    animation: fadeIn 0.3s ease;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 12px 20px;
+    color: var(--text-main);
+    text-decoration: none;
+    transition: background 0.3s ease;
+    font-size: 14.5px;
+}
+
+.dropdown-menu a:hover {
+    background-color: var(--bg-secondary);
+    color: var(--brand-orange);
+}
+
 /* --- Buttons (Right) --- */
 .desktop-btn-group {
     display: flex;

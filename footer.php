@@ -19,10 +19,10 @@
             <div class="footer-col">
                 <h3>Our Initiatives</h3>
                 <ul class="footer-links">
-                    <li><a href="initiatives.php#blood-donation">Blood Donation Drives</a></li>
-                    <li><a href="initiatives.php#menstrual-health">Menstrual Health</a></li>
-                    <li><a href="initiatives.php#mental-health">Mental Health Awareness</a></li>
-                    <li><a href="initiatives.php#education">Child Education</a></li>
+                    <li><a href="blood-donation-drives.php">Blood Donation Drives</a></li>
+                    <li><a href="menstrual-health-drives.php">Menstrual Health</a></li>
+                    <li><a href="mental-health-drives.php">Mental Health Awareness</a></li>
+                    <li><a href="cleanliness-drive.php">Cleanliness Drive</a></li>
                 </ul>
             </div>
         </div>

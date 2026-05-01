@@ -31,6 +31,13 @@
                 <a href="team.php">Our Core Team</a>
                 <div class="dropdown">
                     <a href="initiatives.php" class="dropdown-toggle">Our Work <svg width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1L5 5L9 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                    <div class="dropdown-menu">
+                        <a href="blood-donation-drives.php">Blood Donation & Health</a>
+                        <a href="menstrual-health-drives.php">Menstrual Hygiene</a>
+                        <a href="cloth-donation-drives.php">Cloth & Relief Donation</a>
+                        <a href="mental-health-drives.php">Mental Health Advocacy</a>
+                        <a href="cleanliness-drive.php">Cleanliness Drive</a>
+                    </div>
                 </div>
                 <a href="chhavi.php">Chhavi</a>
                 <a href="contact.php">Contact Us</a>
@@ -56,7 +63,12 @@
                 <a href="index.php">Home</a>
                 <a href="about.php">About Us</a>
                 <a href="team.php">Our Core Team</a>
-                <a href="initiatives.php">Our Work</a>
+                <a href="initiatives.php" style="border-bottom: 1px solid rgba(0,0,0,0.05); padding-bottom: 8px;">Our Work (Hub)</a>
+                <a href="blood-donation-drives.php" style="padding-left: 24px; font-size: 14.5px;">- Blood Donation & Health</a>
+                <a href="menstrual-health-drives.php" style="padding-left: 24px; font-size: 14.5px;">- Menstrual Hygiene</a>
+                <a href="cloth-donation-drives.php" style="padding-left: 24px; font-size: 14.5px;">- Cloth & Relief Donation</a>
+                <a href="mental-health-drives.php" style="padding-left: 24px; font-size: 14.5px;">- Mental Health</a>
+                <a href="cleanliness-drive.php" style="padding-left: 24px; font-size: 14.5px;">- Cleanliness Drive</a>
                 <a href="chhavi.php">Chhavi</a>
                 <a href="contact.php">Contact Us</a>
                 <div class="mobile-btn-group">
