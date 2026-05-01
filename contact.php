@@ -34,18 +34,60 @@
                     <h2>Connect on <span class="highlight">Social Media</span></h2>
                     <p class="section-subtitle" style="margin-bottom: 24px;">Follow and message us directly on our official handles:</p>
                     
-                    <div style="display: flex; flex-direction: column; gap: 16px; margin-top: 24px;">
-                        <a href="https://www.instagram.com/kalki_foundation_ngo/" target="_blank" class="action-btn" style="text-align: center; display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; text-decoration: none;">
-                            <span style="font-size: 1.2rem;">📸</span> Instagram
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 16px; margin-top: 24px;">
+                        
+                        <!-- Instagram -->
+                        <a href="https://www.instagram.com/kalki_foundation_ngo/" target="_blank" style="display: flex; align-items: center; gap: 14px; padding: 14px 18px; border: 1px solid var(--glass-border); border-radius: var(--radius-md); background: #fdfcf9; text-decoration: none; transition: all 0.3s ease; box-shadow: var(--shadow-sm);" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='var(--shadow-md)';this.style.borderColor='var(--brand-orange)';" onmouseout="this.style.transform='none';this.style.boxShadow='var(--shadow-sm)';this.style.borderColor='var(--glass-border)';">
+                            <span style="font-size: 1.6rem;">📸</span>
+                            <div>
+                                <h4 style="margin: 0; color: var(--brand-dark); font-size: 0.95rem; font-family: var(--font-heading);">Instagram</h4>
+                                <span style="font-size: 0.72rem; color: var(--text-muted); font-weight: 500;">@kalki_foundation_ngo</span>
+                            </div>
                         </a>
-                        <a href="https://x.com/ngokalki_" target="_blank" class="outline-btn" style="text-align: center; display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; text-decoration: none; border-color: var(--brand-orange); color: var(--brand-dark);">
-                            <span style="font-size: 1.2rem;">🐦</span> X (Twitter)
+
+                        <!-- LinkedIn -->
+                        <a href="https://www.linkedin.com/company/kalkifoundation" target="_blank" style="display: flex; align-items: center; gap: 14px; padding: 14px 18px; border: 1px solid var(--glass-border); border-radius: var(--radius-md); background: #fdfcf9; text-decoration: none; transition: all 0.3s ease; box-shadow: var(--shadow-sm);" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='var(--shadow-md)';this.style.borderColor='var(--brand-orange)';" onmouseout="this.style.transform='none';this.style.boxShadow='var(--shadow-sm)';this.style.borderColor='var(--glass-border)';">
+                            <span style="font-size: 1.6rem;">💼</span>
+                            <div>
+                                <h4 style="margin: 0; color: var(--brand-dark); font-size: 0.95rem; font-family: var(--font-heading);">LinkedIn</h4>
+                                <span style="font-size: 0.72rem; color: var(--text-muted); font-weight: 500;">Kalki Foundation</span>
+                            </div>
                         </a>
-                        <a href="https://www.threads.com/@kalki_foundation_ngo" target="_blank" class="outline-btn" style="text-align: center; display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; text-decoration: none; border-color: var(--brand-orange); color: var(--brand-dark);">
-                            <span style="font-size: 1.2rem;">🧵</span> Threads
+
+                        <!-- YouTube -->
+                        <a href="https://www.youtube.com/@kalki_foundation" target="_blank" style="display: flex; align-items: center; gap: 14px; padding: 14px 18px; border: 1px solid var(--glass-border); border-radius: var(--radius-md); background: #fdfcf9; text-decoration: none; transition: all 0.3s ease; box-shadow: var(--shadow-sm);" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='var(--shadow-md)';this.style.borderColor='var(--brand-orange)';" onmouseout="this.style.transform='none';this.style.boxShadow='var(--shadow-sm)';this.style.borderColor='var(--glass-border)';">
+                            <span style="font-size: 1.6rem;">🎥</span>
+                            <div>
+                                <h4 style="margin: 0; color: var(--brand-dark); font-size: 0.95rem; font-family: var(--font-heading);">YouTube</h4>
+                                <span style="font-size: 0.72rem; color: var(--text-muted); font-weight: 500;">@kalki_foundation</span>
+                            </div>
                         </a>
-                        <a href="mailto:contact@kalkifoundation.in" class="action-btn" style="text-align: center; display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; text-decoration: none;">
-                            <span style="font-size: 1.2rem;">✉️</span> Send an Email
+
+                        <!-- X (Twitter) -->
+                        <a href="https://x.com/ngokalki_" target="_blank" style="display: flex; align-items: center; gap: 14px; padding: 14px 18px; border: 1px solid var(--glass-border); border-radius: var(--radius-md); background: #fdfcf9; text-decoration: none; transition: all 0.3s ease; box-shadow: var(--shadow-sm);" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='var(--shadow-md)';this.style.borderColor='var(--brand-orange)';" onmouseout="this.style.transform='none';this.style.boxShadow='var(--shadow-sm)';this.style.borderColor='var(--glass-border)';">
+                            <span style="font-size: 1.6rem;">🐦</span>
+                            <div>
+                                <h4 style="margin: 0; color: var(--brand-dark); font-size: 0.95rem; font-family: var(--font-heading);">X (Twitter)</h4>
+                                <span style="font-size: 0.72rem; color: var(--text-muted); font-weight: 500;">@ngokalki_</span>
+                            </div>
+                        </a>
+
+                        <!-- Threads -->
+                        <a href="https://www.threads.com/@kalki_foundation_ngo" target="_blank" style="display: flex; align-items: center; gap: 14px; padding: 14px 18px; border: 1px solid var(--glass-border); border-radius: var(--radius-md); background: #fdfcf9; text-decoration: none; transition: all 0.3s ease; box-shadow: var(--shadow-sm);" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='var(--shadow-md)';this.style.borderColor='var(--brand-orange)';" onmouseout="this.style.transform='none';this.style.boxShadow='var(--shadow-sm)';this.style.borderColor='var(--glass-border)';">
+                            <span style="font-size: 1.6rem;">🧵</span>
+                            <div>
+                                <h4 style="margin: 0; color: var(--brand-dark); font-size: 0.95rem; font-family: var(--font-heading);">Threads</h4>
+                                <span style="font-size: 0.72rem; color: var(--text-muted); font-weight: 500;">@kalki_foundation</span>
+                            </div>
+                        </a>
+
+                        <!-- Email -->
+                        <a href="mailto:contact@kalkifoundation.in" style="display: flex; align-items: center; gap: 14px; padding: 14px 18px; border: 1px solid var(--glass-border); border-radius: var(--radius-md); background: #fdfcf9; text-decoration: none; transition: all 0.3s ease; box-shadow: var(--shadow-sm);" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='var(--shadow-md)';this.style.borderColor='var(--brand-orange)';" onmouseout="this.style.transform='none';this.style.boxShadow='var(--shadow-sm)';this.style.borderColor='var(--glass-border)';">
+                            <span style="font-size: 1.6rem;">✉️</span>
+                            <div>
+                                <h4 style="margin: 0; color: var(--brand-dark); font-size: 0.95rem; font-family: var(--font-heading);">Official Email</h4>
+                                <span style="font-size: 0.72rem; color: var(--text-muted); font-weight: 500;">contact@kalkifoundation.in</span>
+                            </div>
                         </a>
                     </div>
                 </div>
