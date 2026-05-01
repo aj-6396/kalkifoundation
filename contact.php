@@ -29,28 +29,25 @@
                     </ul>
                 </div>
                 
-                <!-- Simple Message Form -->
+                <!-- Social Media & Contact Links -->
                 <div class="list-card border-orange">
-                    <h2>Send a <span class="highlight">Message</span></h2>
+                    <h2>Connect on <span class="highlight">Social Media</span></h2>
+                    <p class="section-subtitle" style="margin-bottom: 24px;">Follow and message us directly on our official handles:</p>
                     
-                    <form action="#" method="POST" style="display: flex; flex-direction: column; gap: 16px; margin-top: 24px;">
-                        <div>
-                            <label for="name" style="font-weight: 600; font-size: 14px; color: var(--brand-dark); display:block; margin-bottom: 6px;">Full Name</label>
-                            <input type="text" id="name" name="name" placeholder="John Doe" required style="width:100%; padding:12px; border: 1.5px solid var(--glass-border); border-radius: var(--radius-sm); font-size:15px; outline:none;">
-                        </div>
-                        
-                        <div>
-                            <label for="email" style="font-weight: 600; font-size: 14px; color: var(--brand-dark); display:block; margin-bottom: 6px;">Email Address</label>
-                            <input type="email" id="email" name="email" placeholder="john@example.com" required style="width:100%; padding:12px; border: 1.5px solid var(--glass-border); border-radius: var(--radius-sm); font-size:15px; outline:none;">
-                        </div>
-                        
-                        <div>
-                            <label for="message" style="font-weight: 600; font-size: 14px; color: var(--brand-dark); display:block; margin-bottom: 6px;">Message</label>
-                            <textarea id="message" name="message" rows="4" placeholder="How can we collaborate?" required style="width:100%; padding:12px; border: 1.5px solid var(--glass-border); border-radius: var(--radius-sm); font-size:15px; outline:none; font-family:inherit;"></textarea>
-                        </div>
-                        
-                        <button type="submit" class="action-btn" style="align-self: flex-start;">Send Message</button>
-                    </form>
+                    <div style="display: flex; flex-direction: column; gap: 16px; margin-top: 24px;">
+                        <a href="https://www.instagram.com/kalki_foundation_ngo/" target="_blank" class="action-btn" style="text-align: center; display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; text-decoration: none;">
+                            <span style="font-size: 1.2rem;">📸</span> Instagram
+                        </a>
+                        <a href="https://x.com/ngokalki_" target="_blank" class="outline-btn" style="text-align: center; display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; text-decoration: none; border-color: var(--brand-orange); color: var(--brand-dark);">
+                            <span style="font-size: 1.2rem;">🐦</span> X (Twitter)
+                        </a>
+                        <a href="https://www.threads.com/@kalki_foundation_ngo" target="_blank" class="outline-btn" style="text-align: center; display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; text-decoration: none; border-color: var(--brand-orange); color: var(--brand-dark);">
+                            <span style="font-size: 1.2rem;">🧵</span> Threads
+                        </a>
+                        <a href="mailto:contact@kalkifoundation.in" class="action-btn" style="text-align: center; display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; text-decoration: none;">
+                            <span style="font-size: 1.2rem;">✉️</span> Send an Email
+                        </a>
+                    </div>
                 </div>
 
             </div>
