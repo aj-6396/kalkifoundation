@@ -20,23 +20,6 @@
 
             <div class="lists-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 32px; text-align: left; margin-top: 40px;">
                 
-                <!-- Online Banking Details -->
-                <div class="list-card" style="background: var(--card-bg); padding: 32px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); border: 1px solid var(--glass-border); display: flex; flex-direction: column; justify-content: space-between;">
-                    <div>
-                        <h2><span class="highlight">Direct</span> Bank Transfer</h2>
-                        <p style="margin-bottom: 20px; color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">Transfer your contribution securely via direct bank deposit, NEFT, or IMPS:</p>
-                        
-                        <ul class="custom-list" style="margin-top: 15px;">
-                            <li><strong>Account Name:</strong> KALKI FOUNDATION</li>
-                            <li><strong>Bank Name:</strong> Union Bank of India</li>
-                            <li><strong>Account Type:</strong> Current Account</li>
-                            <li><strong>Account Number:</strong> 390101010041264</li>
-                            <li><strong>IFSC Code:</strong> UBIN0539015</li>
-                            <li><strong>Branch:</strong> Banaras Hindu University, Varanasi</li>
-                        </ul>
-                    </div>
-                </div>
-
                 <!-- UPI & QR Scan Option -->
                 <div class="list-card border-orange" style="background: var(--card-bg); padding: 32px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); border: 1px solid var(--brand-orange); display: flex; flex-direction: column; justify-content: space-between; align-items: center; text-align: center;">
                     <div style="width: 100%;">
@@ -52,6 +35,23 @@
 
                         <!-- Instant mobile app trigger button -->
                         <a href="upi://pay?pa=42264244172@sbi&pn=KALKI%20FOUNDATION&cu=INR" class="action-btn" style="display: block; margin-top: 24px; width: 100%; text-decoration: none; text-align: center;">Donate Now via UPI</a>
+                    </div>
+                </div>
+
+                <!-- Online Banking Details -->
+                <div class="list-card" style="background: var(--card-bg); padding: 32px; border-radius: var(--radius-md); box-shadow: var(--shadow-sm); border: 1px solid var(--glass-border); display: flex; flex-direction: column; justify-content: space-between;">
+                    <div>
+                        <h2><span class="highlight">Direct</span> Bank Transfer</h2>
+                        <p style="margin-bottom: 20px; color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;">Transfer your contribution securely via direct bank deposit, NEFT, or IMPS:</p>
+                        
+                        <ul class="custom-list" style="margin-top: 15px;">
+                            <li><strong>Account Name:</strong> KALKI FOUNDATION</li>
+                            <li><strong>Bank Name:</strong> Union Bank of India</li>
+                            <li><strong>Account Type:</strong> Current Account</li>
+                            <li><strong>Account Number:</strong> 390101010041264</li>
+                            <li><strong>IFSC Code:</strong> UBIN0539015</li>
+                            <li><strong>Branch:</strong> Banaras Hindu University, Varanasi</li>
+                        </ul>
                     </div>
                 </div>
                 
