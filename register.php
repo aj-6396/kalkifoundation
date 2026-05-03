@@ -21,7 +21,7 @@
                 "I do not seek a kingdom, nor heaven, nor even rebirth. I only seek the strength to ease the suffering of others."
             </blockquote>
             <p class="section-subtitle mt-4">
-                This timeless vow is a driving force behind Kalki Foundation, a youth-powered NGO founded by the dynamic students of Banaras Hindu University. We're 1.5 years strong and rising with purpose while rewriting the story of change. We don't chase titles; we chase impact. If you believe in action over apathy and want your time to truly count, this is your call. Be the voice.
+                This timeless vow is a driving force behind Kalki Foundation, a youth-powered NGO founded by the dynamic students of Banaras Hindu University. We're 2.5 years strong and rising with purpose while rewriting the story of change. We don't chase titles; we chase impact. If you believe in action over apathy and want your time to truly count, this is your call. Be the voice.
             </p>
         </div>
     </section>
@@ -31,11 +31,11 @@
         <div class="container">
             <div class="stats-grid">
                 <div class="stat-box">
-                    <h3>8,000+</h3>
+                    <h3>10,000+</h3>
                     <p>Lives Touched</p>
                 </div>
                 <div class="stat-box">
-                    <h3>125+</h3>
+                    <h3>150+</h3>
                     <p>Drives Conducted</p>
                 </div>
                 <div class="stat-box">
@@ -114,6 +114,13 @@
                     <span>Volunteer</span>
                     <p>"It was really nice watching how Kalki was made and developed over time... I hope I see Kalki foundation growing more and more."</p>
                 </div>
+                <!-- Testimonial 4 -->
+                <div class="testimonial-card">
+                    <img src="https://kalkifoundation.in/wp-content/uploads/2025/05/IMG-20250507-WA0042-150x150.webp" alt="Anshika Mishra">
+                    <h4>Anshika Mishra</h4>
+                    <span>Volunteer</span>
+                    <p>"Thank you so much, Team Kalki. You've helped me learn a lot, understand things better, and experience the happiness of helping others. I'm truly grateful for everything you do."</p>
+                </div>
                 <!-- Testimonial 3 -->
                 <div class="testimonial-card">
                     <img src="https://kalkifoundation.in/wp-content/uploads/2025/05/IMG-20250510-WA0014-150x150.webp" alt="Akanksha Priya">
@@ -121,35 +128,36 @@
                     <span>Volunteer</span>
                     <p>"Kalki Foundation has helped me grow as a more compassionate and responsible individual. I’m truly grateful for this opportunity and look forward to contributing more."</p>
                 </div>
-                <!-- Testimonial 4 -->
+                
+                <!-- Testimonial 5 -->
                 <div class="testimonial-card">
                     <img src="https://kalkifoundation.in/wp-content/uploads/2025/05/IMG-20250507-WA0042-150x150.webp" alt="Ankesh Yadav">
                     <h4>Ankesh Yadav</h4>
                     <span>Volunteer</span>
                     <p>"Being a part of Kalki Foundation has deeply influenced my personal growth. It has nurtured in me a stronger sense of empathy and responsibility."</p>
                 </div>
-                <!-- Testimonial 5 -->
+                <!-- Testimonial 6 -->
                 <div class="testimonial-card">
                     <img src="https://kalkifoundation.in/wp-content/uploads/2025/05/IMG-20250507-WA0039-150x150.webp" alt="Sudhanshu Kumar">
                     <h4>Sudhanshu Kumar</h4>
                     <span>Volunteer</span>
                     <p>"Witnessing the positive impact in the life of vulnerable sections. Every blood donation and initiative brings us closer to creating a healthier, more compassionate society."</p>
                 </div>
-                <!-- Testimonial 6 -->
+                <!-- Testimonial 7 -->
                 <div class="testimonial-card">
                     <img src="https://kalkifoundation.in/wp-content/uploads/2025/05/IMG-20250506-WA0028-150x150.webp" alt="Vijaylaxmi Singh">
                     <h4>Vijaylaxmi Singh</h4>
                     <span>Volunteer</span>
                     <p>"I enjoy volunteering because I get to network with different people and learn from them. And being part of this NGO is definitely worth it."</p>
                 </div>
-                <!-- Testimonial 7 -->
+                <!-- Testimonial 8 -->
                 <div class="testimonial-card">
                     <img src="https://kalkifoundation.in/wp-content/uploads/2025/05/IMG_20250516_225936-150x150.webp" alt="Akriti Chaubey">
                     <h4>Akriti Chaubey</h4>
                     <span>Volunteer</span>
                     <p>"I not only learn teamwork but along with that I meet people who are very hardworking and passionate, which highly motivates me to push my boundaries further."</p>
                 </div>
-                <!-- Testimonial 8 -->
+                <!-- Testimonial 9 -->
                 <div class="testimonial-card">
                     <img src="https://kalkifoundation.in/wp-content/uploads/2025/05/IMG-20250507-WA0032-150x150.webp" alt="Shreyanshi Singh">
                     <h4>Shreyanshi Singh</h4>

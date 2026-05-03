@@ -199,7 +199,7 @@
             <!-- 7. Stationery Donation (Image Left) -->
             <div class="work-row">
                 <div class="work-image">
-                    <img src="assets/img/stationary_donation_1777636686960.png" alt="Stationery Donation">
+                    <img src="assets/images/2025/08/IMG_20250712_112834938.jpg" alt="Stationery Donation">
                 </div>
                 <div class="work-text">
                     <h3>Stationery Donation Drive</h3>
