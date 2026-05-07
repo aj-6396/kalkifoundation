@@ -29,6 +29,123 @@
             </div>
         </div>
     </section>
+      <!-- AWARDS & HONORS CAROUSEL SECTION -->
+    <section class="section-padding awards-section">
+        <div class="container text-center">
+            <h2 class="section-title">Honors & <span class="highlight">Awards</span></h2>
+            <p class="section-subtitle">Our relentless pursuit of social welfare has been recognized by esteemed institutions and national leaders.</p>
+        </div>
+
+        <!-- Infinite scroll track -->
+        <div class="awards-carousel-wrapper">
+            <div class="awards-track" id="awardsTrack">
+
+                <!-- Award 1 -->
+                <div class="award-card">
+                    <div class="award-img-placeholder">
+                        <div class="award-img-inner">
+                            <span class="upload-icon">🏆</span>
+                            <span class="upload-hint">Add photo here</span>
+                        </div>
+                    </div>
+                    <div class="award-body">
+                        <h4>Make India Scientific</h4>
+                        <p class="award-by">Prof. H.C. Verma</p>
+                        <p class="award-desc">Personally honored and recognized during the Make India Scientific initiative at Banaras Hindu University.</p>
+                    </div>
+                </div>
+
+                <!-- Award 2 -->
+                <div class="award-card">
+                    <div class="award-img-placeholder">
+                        <div class="award-img-inner">
+                            <span class="upload-icon">🎖️</span>
+                            <span class="upload-hint">Add photo here</span>
+                        </div>
+                    </div>
+                    <div class="award-body">
+                        <h4>Vice Chancellor Recognition</h4>
+                        <p class="award-by">BHU — Prof. Ajit Kumar Chaturvedi</p>
+                        <p class="award-desc">Personally recognized by the BHU Vice Chancellor, including a commemorated visit to our adopted school in Jangampur.</p>
+                    </div>
+                </div>
+
+                <!-- Award 3 -->
+                <div class="award-card">
+                    <div class="award-img-placeholder">
+                        <div class="award-img-inner">
+                            <span class="upload-icon">🩺</span>
+                            <span class="upload-hint">Add photo here</span>
+                        </div>
+                    </div>
+                    <div class="award-body">
+                        <h4>World Blood Donor Day Felicitation</h4>
+                        <p class="award-by">Sir Sunderlal Hospital, IMS-BHU</p>
+                        <p class="award-desc">Felicitated for 2 consecutive years for our outstanding voluntary blood donation drives in collaboration with IMS-BHU.</p>
+                    </div>
+                </div>
+
+                <!-- Award 4 -->
+                <div class="award-card">
+                    <div class="award-img-placeholder">
+                        <div class="award-img-inner">
+                            <span class="upload-icon">🌟</span>
+                            <span class="upload-hint">Add photo here</span>
+                        </div>
+                    </div>
+                    <div class="award-body">
+                        <h4>Khushi Rashtra Prerna Samman</h4>
+                        <p class="award-by">National Award</p>
+                        <p class="award-desc">Awarded this prestigious national honor for our highly impactful and consistent social work across Varanasi and beyond.</p>
+                    </div>
+                </div>
+
+                <!-- Duplicates for seamless infinite loop -->
+                <div class="award-card" aria-hidden="true">
+                    <div class="award-img-placeholder">
+                        <div class="award-img-inner"><span class="upload-icon">🏆</span><span class="upload-hint">Add photo here</span></div>
+                    </div>
+                    <div class="award-body">
+                        <h4>Make India Scientific</h4>
+                        <p class="award-by">Prof. H.C. Verma</p>
+                        <p class="award-desc">Personally honored and recognized during the Make India Scientific initiative at Banaras Hindu University.</p>
+                    </div>
+                </div>
+                <div class="award-card" aria-hidden="true">
+                    <div class="award-img-placeholder">
+                        <div class="award-img-inner"><span class="upload-icon">🎖️</span><span class="upload-hint">Add photo here</span></div>
+                    </div>
+                    <div class="award-body">
+                        <h4>Vice Chancellor Recognition</h4>
+                        <p class="award-by">BHU — Prof. Ajit Kumar Chaturvedi</p>
+                        <p class="award-desc">Personally recognized by the BHU Vice Chancellor, including a commemorated visit to our adopted school in Jangampur.</p>
+                    </div>
+                </div>
+                <div class="award-card" aria-hidden="true">
+                    <div class="award-img-placeholder">
+                        <div class="award-img-inner"><span class="upload-icon">🩺</span><span class="upload-hint">Add photo here</span></div>
+                    </div>
+                    <div class="award-body">
+                        <h4>World Blood Donor Day Felicitation</h4>
+                        <p class="award-by">Sir Sunderlal Hospital, IMS-BHU</p>
+                        <p class="award-desc">Felicitated for 2 consecutive years for our outstanding voluntary blood donation drives.</p>
+                    </div>
+                </div>
+                <div class="award-card" aria-hidden="true">
+                    <div class="award-img-placeholder">
+                        <div class="award-img-inner"><span class="upload-icon">🌟</span><span class="upload-hint">Add photo here</span></div>
+                    </div>
+                    <div class="award-body">
+                        <h4>Khushi Rashtra Prerna Samman</h4>
+                        <p class="award-by">National Award</p>
+                        <p class="award-desc">Awarded this prestigious national honor for our highly impactful and consistent social work across Varanasi.</p>
+                    </div>
+                </div>
+
+            </div><!-- /.awards-track -->
+        </div><!-- /.awards-carousel-wrapper -->
+    </section>
+
 
     <!-- GLOBAL STANDARDS SECTION -->
     <section class="standards bg-secondary section-padding">
@@ -80,31 +197,31 @@
                     <span>Banaras Hindu University</span>
                 </div>
                 <div class="partner-logo-item">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Indian_Institute_of_Technology_BHU_Logo.svg/150px-Indian_Institute_of_Technology_BHU_Logo.svg.png" alt="IIT BHU">
+                    <img src="assets/images/logos/iitbhu.jpg" alt="IIT BHU">
                     <span>IIT (BHU) Varanasi</span>
                 </div>
                 <div class="partner-logo-item">
-                    <img src="https://kalkifoundation.in/wp-content/uploads/2024/03/Logo-150x150.png.webp" alt="Sir Sunderlal Hospital">
+                    <img src="assets/images/logos/ims" alt="Sir Sunderlal Hospital">
                     <span>Sir Sunderlal Hospital</span>
                 </div>
                 <div class="partner-logo-item">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/National_Service_Scheme_logo.svg/150px-National_Service_Scheme_logo.svg.png" alt="NSS">
+                    <img src="assets/images/logos/nss.png" alt="NSS">
                     <span>NSS (National Service Scheme)</span>
                 </div>
                 <div class="partner-logo-item">
-                    <img src="https://kalkifoundation.in/wp-content/uploads/2024/03/Logo-150x150.png.webp" alt="SBTC UP">
+                    <img src="assets/images/logos/sbtc.jpg" alt="SBTC UP">
                     <span>SBTC UP</span>
                 </div>
                 <div class="partner-logo-item">
-                    <img src="https://kalkifoundation.in/wp-content/uploads/2024/03/Logo-150x150.png.webp" alt="NBTC">
+                    <img src="assets/images/logos/nbtc.png" alt="NBTC">
                     <span>NBTC</span>
                 </div>
                 <div class="partner-logo-item">
-                    <img src="https://kalkifoundation.in/wp-content/uploads/2024/03/Logo-150x150.png.webp" alt="Make India Scientific">
+                    <img src="assets/images/logos/mis.png" alt="Make India Scientific">
                     <span>Make India Scientific</span>
                 </div>
                 <div class="partner-logo-item">
-                    <img src="https://kalkifoundation.in/wp-content/uploads/2024/03/Logo-150x150.png.webp" alt="Jainam">
+                    <img src="assets/images/logos/jjf.png" alt="Jainam">
                     <span>Jainam</span>
                 </div>
                 <div class="partner-logo-item">
@@ -112,7 +229,7 @@
                     <span>Jeevika</span>
                 </div>
                 <div class="partner-logo-item">
-                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/5a/Banaras_Hindu_University_Coat_of_Arms.svg/150px-Banaras_Hindu_University_Coat_of_Arms.svg.png" alt="ISO 9001:2015">
+                    <img src="assets/images/logos/iso.webp" alt="ISO 9001:2015">
                     <span>ISO 9001:2015 Certified</span>
                 </div>
             </div>
@@ -235,123 +352,7 @@
         </div>
     </section>
 
-    <!-- AWARDS & HONORS CAROUSEL SECTION -->
-    <section class="section-padding awards-section">
-        <div class="container text-center">
-            <h2 class="section-title">Honors & <span class="highlight">Awards</span></h2>
-            <p class="section-subtitle">Our relentless pursuit of social welfare has been recognized by esteemed institutions and national leaders.</p>
-        </div>
-
-        <!-- Infinite scroll track -->
-        <div class="awards-carousel-wrapper">
-            <div class="awards-track" id="awardsTrack">
-
-                <!-- Award 1 -->
-                <div class="award-card">
-                    <div class="award-img-placeholder">
-                        <div class="award-img-inner">
-                            <span class="upload-icon">🏆</span>
-                            <span class="upload-hint">Add photo here</span>
-                        </div>
-                    </div>
-                    <div class="award-body">
-                        <h4>Make India Scientific</h4>
-                        <p class="award-by">Prof. H.C. Verma</p>
-                        <p class="award-desc">Personally honored and recognized during the Make India Scientific initiative at Banaras Hindu University.</p>
-                    </div>
-                </div>
-
-                <!-- Award 2 -->
-                <div class="award-card">
-                    <div class="award-img-placeholder">
-                        <div class="award-img-inner">
-                            <span class="upload-icon">🎖️</span>
-                            <span class="upload-hint">Add photo here</span>
-                        </div>
-                    </div>
-                    <div class="award-body">
-                        <h4>Vice Chancellor Recognition</h4>
-                        <p class="award-by">BHU — Prof. Ajit Kumar Chaturvedi</p>
-                        <p class="award-desc">Personally recognized by the BHU Vice Chancellor, including a commemorated visit to our adopted school in Jangampur.</p>
-                    </div>
-                </div>
-
-                <!-- Award 3 -->
-                <div class="award-card">
-                    <div class="award-img-placeholder">
-                        <div class="award-img-inner">
-                            <span class="upload-icon">🩺</span>
-                            <span class="upload-hint">Add photo here</span>
-                        </div>
-                    </div>
-                    <div class="award-body">
-                        <h4>World Blood Donor Day Felicitation</h4>
-                        <p class="award-by">Sir Sunderlal Hospital, IMS-BHU</p>
-                        <p class="award-desc">Felicitated for 2 consecutive years for our outstanding voluntary blood donation drives in collaboration with IMS-BHU.</p>
-                    </div>
-                </div>
-
-                <!-- Award 4 -->
-                <div class="award-card">
-                    <div class="award-img-placeholder">
-                        <div class="award-img-inner">
-                            <span class="upload-icon">🌟</span>
-                            <span class="upload-hint">Add photo here</span>
-                        </div>
-                    </div>
-                    <div class="award-body">
-                        <h4>Khushi Rashtra Prerna Samman</h4>
-                        <p class="award-by">National Award</p>
-                        <p class="award-desc">Awarded this prestigious national honor for our highly impactful and consistent social work across Varanasi and beyond.</p>
-                    </div>
-                </div>
-
-                <!-- Duplicates for seamless infinite loop -->
-                <div class="award-card" aria-hidden="true">
-                    <div class="award-img-placeholder">
-                        <div class="award-img-inner"><span class="upload-icon">🏆</span><span class="upload-hint">Add photo here</span></div>
-                    </div>
-                    <div class="award-body">
-                        <h4>Make India Scientific</h4>
-                        <p class="award-by">Prof. H.C. Verma</p>
-                        <p class="award-desc">Personally honored and recognized during the Make India Scientific initiative at Banaras Hindu University.</p>
-                    </div>
-                </div>
-                <div class="award-card" aria-hidden="true">
-                    <div class="award-img-placeholder">
-                        <div class="award-img-inner"><span class="upload-icon">🎖️</span><span class="upload-hint">Add photo here</span></div>
-                    </div>
-                    <div class="award-body">
-                        <h4>Vice Chancellor Recognition</h4>
-                        <p class="award-by">BHU — Prof. Ajit Kumar Chaturvedi</p>
-                        <p class="award-desc">Personally recognized by the BHU Vice Chancellor, including a commemorated visit to our adopted school in Jangampur.</p>
-                    </div>
-                </div>
-                <div class="award-card" aria-hidden="true">
-                    <div class="award-img-placeholder">
-                        <div class="award-img-inner"><span class="upload-icon">🩺</span><span class="upload-hint">Add photo here</span></div>
-                    </div>
-                    <div class="award-body">
-                        <h4>World Blood Donor Day Felicitation</h4>
-                        <p class="award-by">Sir Sunderlal Hospital, IMS-BHU</p>
-                        <p class="award-desc">Felicitated for 2 consecutive years for our outstanding voluntary blood donation drives.</p>
-                    </div>
-                </div>
-                <div class="award-card" aria-hidden="true">
-                    <div class="award-img-placeholder">
-                        <div class="award-img-inner"><span class="upload-icon">🌟</span><span class="upload-hint">Add photo here</span></div>
-                    </div>
-                    <div class="award-body">
-                        <h4>Khushi Rashtra Prerna Samman</h4>
-                        <p class="award-by">National Award</p>
-                        <p class="award-desc">Awarded this prestigious national honor for our highly impactful and consistent social work across Varanasi.</p>
-                    </div>
-                </div>
-
-            </div><!-- /.awards-track -->
-        </div><!-- /.awards-carousel-wrapper -->
-    </section>
-
+  
     <!-- VOLUNTEER TESTIMONIALS SECTION -->
     <section class="section-padding bg-secondary homepage-testimonials" style="overflow: hidden;">
         <div class="container text-center">

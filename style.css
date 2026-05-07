@@ -410,12 +410,73 @@ footer {
     background: linear-gradient(rgba(18, 21, 17, 0.65), rgba(18, 21, 17, 0.75)), url('https://kalkifoundation.in/wp-content/uploads/2024/03/IMG_8229-1024x682.jpg') center/cover;
     background-position: center;
     position: relative;
+    overflow: hidden; /* Ensure zoom effects don't spill out */
+}
+
+/* Dynamic background slider elements */
+.hero.js-loaded {
+    background: none !important;
+}
+
+.hero-bg-slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.hero-bg-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+    transform: scale(1);
+}
+
+.hero-bg-slide::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(18, 21, 17, 0.65), rgba(18, 21, 17, 0.75));
+}
+
+/* Match the volunteer/register page dark overlay if applicable */
+.volunteer-hero .hero-bg-slide::after {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7));
+}
+
+.hero-bg-slide.active {
+    opacity: 1;
+    animation: kenBurnsZoom 12s ease-in-out infinite alternate;
+}
+
+@keyframes kenBurnsZoom {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.08);
+    }
 }
 
 .hero-content {
     max-width: 840px;
     padding: 0 24px;
     animation: fadeInUp 1s ease both;
+    position: relative;
+    z-index: 2; /* Layer on top of background slider */
 }
 
 .hero h1 { 
